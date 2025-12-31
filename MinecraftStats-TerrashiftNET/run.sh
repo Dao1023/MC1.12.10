@@ -1,0 +1,1 @@
+/home/dao/Minecraft/1.21.10/server/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -jar MinecraftStatsCLI.jar config.json
