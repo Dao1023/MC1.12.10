@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'MinecraftStats-TerrashiftNET/Web'
+          path: 'MinecraftStats-TerrashiftNET/Web/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
