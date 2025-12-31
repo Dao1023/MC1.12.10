@@ -1,0 +1,7 @@
+{
+  "fly": {
+    "cls": "custom",
+    "target": "aviate_one_cm",
+    "title": "飞行榜"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "function_blacklist": [
+        "exp",
+        "expm1",
+        "ldexp",
+        "pow",
+        "factorial"
+    ]
+}

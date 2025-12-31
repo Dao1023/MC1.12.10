@@ -1,0 +1,536 @@
+dao@dao-computer:~/Minecraft/1.21.9$ wget https://www.azul.com/core-post-download/?endpoint=zulu&uuid=f1a9cf6e-e332-4038-839d-a36014bf3fa6
+[1] 3936867
+dao@dao-computer:~/Minecraft/1.21.9$ 
+Redirecting output to ‘wget-log’.
+^C
+[1]+  Done                    wget https://www.azul.com/core-post-download/?endpoint=zulu
+dao@dao-computer:~/Minecraft/1.21.9$ uv init
+Initialized project `1-21-9`
+dao@dao-computer:~/Minecraft/1.21.9$ git init
+Reinitialized existing Git repository in /home/dao/Minecraft/1.21.9/.git/
+dao@dao-computer:~/Minecraft/1.21.9$ uv add mcdreforged
+Using CPython 3.13.7
+Creating virtual environment at: .venv
+⠇ psutil==7.1.3                                                                       ^Cdao@dao-computer:~/Minecraft/1.21.9$ uv add mcdreforged
+Resolved 19 packages in 1.18s
+Prepared 5 packages in 320ms
+Installed 18 packages in 81ms
+ + certifi==2025.11.12
+ + charset-normalizer==3.4.4
+ + colorama==0.4.6
+ + colorlog==6.10.1
+ + idna==3.11
+ + mcdreforged==2.15.5
+ + packaging==25.0
+ + parse==1.20.2
+ + pathspec==0.12.1
+ + prompt-toolkit==3.0.52
+ + psutil==7.1.3
+ + requests==2.32.5
+ + resolvelib==1.2.1
+ + ruamel-yaml==0.18.16
+ + ruamel-yaml-clib==0.2.15
+ + typing-extensions==4.15.0
+ + urllib3==2.5.0
+ + wcwidth==0.2.14
+dao@dao-computer:~/Minecraft/1.21.9$ source .venv/bin/activate
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:31:05] [MainThread/WARNING]: Option 'debug.process' missing, use default value False
+[MCDR] [19:31:05] [MainThread/WARNING]: Option 'write_server_output_to_log_file' missing, use default value False
+[MCDR] [19:31:05] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:31:05] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:31:05] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:31:05] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:31:05] [MainThread/INFO]: - plugins
+[MCDR] [19:31:05] [MainThread/WARNING]: 配置文件缺失部分选项，使用默认值
+[MCDR] [19:31:05] [MainThread/WARNING]: 请尽快去检测并更新配置文件
+[MCDR] [19:31:05] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:31:05] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 插件 info@0.2.2 加载失败
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 插件 info@0.2.2 的 Python 依赖库需求未被满足: required package 'No package metadata was found for py-cpuinfo' not installed
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 插件 minecraft_data_api@1.6.1 加载失败
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 插件 minecraft_data_api@1.6.1 的 Python 依赖库需求未被满足: required package 'No package metadata was found for hjson' not installed
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 加载失败
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 的 Python 依赖库需求未被满足: required package 'No package metadata was found for APScheduler' not installed
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 加载失败
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 的 Python 依赖库需求未被满足: required package 'No package metadata was found for simpleeval' not installed
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 卸载插件 gamemode@1.1.0，原因: 未找到依赖项 minecraft_data_api
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已卸载
+[MCDR] [19:31:05] [TaskExecutor/ERROR]: 卸载插件 where_is@2.2.1，原因: 未找到依赖项 minecraft_data_api
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已卸载
+[MCDR] [19:31:05] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:31:05] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:31:05] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:31:05] [TaskExecutor/INFO]: 共加载: 3 个插件; 加载失败: 4 个插件; 依赖检查失败: 2 个插件; 已加载插件数: 5
+[MCDR] [19:31:05] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+[MCDR] [19:31:05] [MainThread/INFO]: 服务端正在以 PID 3947455 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:31:05] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:31:05] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:31:05] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [19:31:05] [MainThread/INFO]: 正在关闭高级控制台
+>
+[MCDR] [19:31:05] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ uv add py-cpuinfo
+Resolved 20 packages in 98ms
+Prepared 1 package in 54ms
+Installed 1 package in 3ms
+ + py-cpuinfo==9.0.0
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:31:39] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:31:39] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:31:39] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:31:39] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:31:39] [MainThread/INFO]: - plugins
+[MCDR] [19:31:39] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:31:39] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 插件 info@0.2.2 已加载
+[MCDR] [19:31:39] [TaskExecutor/ERROR]: 插件 minecraft_data_api@1.6.1 加载失败
+[MCDR] [19:31:39] [TaskExecutor/ERROR]: 插件 minecraft_data_api@1.6.1 的 Python 依赖库需求未被满足: required package 'No package metadata was found for hjson' not installed
+[MCDR] [19:31:39] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 加载失败
+[MCDR] [19:31:39] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 的 Python 依赖库需求未被满足: required package 'No package metadata was found for APScheduler' not installed
+[MCDR] [19:31:39] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 加载失败
+[MCDR] [19:31:39] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 的 Python 依赖库需求未被满足: required package 'No package metadata was found for simpleeval' not installed
+[MCDR] [19:31:39] [TaskExecutor/ERROR]: 卸载插件 gamemode@1.1.0，原因: 未找到依赖项 minecraft_data_api
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已卸载
+[MCDR] [19:31:39] [TaskExecutor/ERROR]: 卸载插件 where_is@2.2.1，原因: 未找到依赖项 minecraft_data_api
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已卸载
+[MCDR] [19:31:39] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:31:39] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:31:39] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:31:39] [TaskExecutor/INFO] [info]: 配置文件已加载
+[MCDR] [19:31:39] [TaskExecutor/INFO]: 共加载: 4 个插件; 加载失败: 3 个插件; 依赖检查失败: 2 个插件; 已加载插件数: 6
+[MCDR] [19:31:39] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+[MCDR] [19:31:39] [MainThread/INFO]: 服务端正在以 PID 3948189 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:31:39] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:31:39] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:31:39] [MainThread/INFO]: 正在关闭 MCDR
+>
+[MCDR] [19:31:39] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [19:31:39] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ uv add hjson
+Resolved 21 packages in 90ms
+Prepared 1 package in 57ms
+Installed 1 package in 2ms
+ + hjson==3.1.0
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:31:49] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:31:49] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:31:49] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:31:49] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:31:49] [MainThread/INFO]: - plugins
+[MCDR] [19:31:49] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:31:49] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 插件 info@0.2.2 已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [19:31:49] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 加载失败
+[MCDR] [19:31:49] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 的 Python 依赖库需求未被满足: required package 'No package metadata was found for APScheduler' not installed
+[MCDR] [19:31:49] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 加载失败
+[MCDR] [19:31:49] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 的 Python 依赖库需求未被满足: required package 'No package metadata was found for simpleeval' not installed
+[MCDR] [19:31:49] [TaskExecutor/INFO] [where_is]: 配置文件已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:31:49] [TaskExecutor/INFO] [minecraft_data_api]: 配置文件已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO] [gamemode]: 配置文件已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO] [info]: 配置文件已加载
+[MCDR] [19:31:49] [TaskExecutor/INFO]: 共加载: 7 个插件; 加载失败: 2 个插件; 已加载插件数: 9
+[MCDR] [19:31:49] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+>
+[MCDR] [19:31:49] [MainThread/INFO]: 服务端正在以 PID 3948473 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:31:49] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:31:49] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:31:49] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [19:31:49] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [19:31:49] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ uv add  APScheduler
+Resolved 24 packages in 312ms
+Prepared 1 package in 64ms
+Installed 2 packages in 34ms
+ + apscheduler==3.11.1
+ + tzlocal==5.3.1
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:31:57] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:31:57] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:31:57] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:31:57] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:31:57] [MainThread/INFO]: - plugins
+[MCDR] [19:31:57] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:31:57] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 插件 info@0.2.2 已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [19:31:57] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 加载失败
+[MCDR] [19:31:57] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 的 Python 依赖库需求未被满足: required package 'No package metadata was found for SQLAlchemy' not installed
+[MCDR] [19:31:57] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 加载失败
+[MCDR] [19:31:57] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 的 Python 依赖库需求未被满足: required package 'No package metadata was found for simpleeval' not installed
+[MCDR] [19:31:57] [TaskExecutor/INFO] [where_is]: 配置文件已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:31:57] [TaskExecutor/INFO] [minecraft_data_api]: 配置文件已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO] [gamemode]: 配置文件已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO] [info]: 配置文件已加载
+[MCDR] [19:31:57] [TaskExecutor/INFO]: 共加载: 7 个插件; 加载失败: 2 个插件; 已加载插件数: 9
+[MCDR] [19:31:57] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+>
+[MCDR] [19:31:57] [MainThread/INFO]: 服务端正在以 PID 3948757 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:31:57] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:31:57] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:31:57] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [19:31:57] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [19:31:58] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ uv add  SQLAlchemy
+Resolved 26 packages in 640ms
+Prepared 2 packages in 965ms
+Installed 2 packages in 13ms
+ + greenlet==3.2.4
+ + sqlalchemy==2.0.44
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:32:06] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:32:06] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:32:06] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:32:06] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:32:06] [MainThread/INFO]: - plugins
+[MCDR] [19:32:06] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:32:06] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 插件 info@0.2.2 已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [19:32:06] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 加载失败
+[MCDR] [19:32:06] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 的 Python 依赖库需求未被满足: required package 'No package metadata was found for pytz' not installed
+[MCDR] [19:32:06] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 加载失败
+[MCDR] [19:32:06] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 的 Python 依赖库需求未被满足: required package 'No package metadata was found for simpleeval' not installed
+[MCDR] [19:32:06] [TaskExecutor/INFO] [where_is]: 配置文件已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:32:06] [TaskExecutor/INFO] [minecraft_data_api]: 配置文件已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO] [gamemode]: 配置文件已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO] [info]: 配置文件已加载
+[MCDR] [19:32:06] [TaskExecutor/INFO]: 共加载: 7 个插件; 加载失败: 2 个插件; 已加载插件数: 9
+[MCDR] [19:32:06] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+>
+[MCDR] [19:32:06] [MainThread/INFO]: 服务端正在以 PID 3949007 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:32:06] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:32:06] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:32:06] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [19:32:06] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [19:32:06] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ uv add   pytz
+Resolved 27 packages in 107ms
+Installed 1 package in 10ms
+ + pytz==2025.2
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:32:12] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:32:12] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:32:12] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:32:12] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:32:12] [MainThread/INFO]: - plugins
+[MCDR] [19:32:12] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:32:12] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 插件 info@0.2.2 已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [19:32:12] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 加载失败
+[MCDR] [19:32:12] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 的 Python 依赖库需求未被满足: required package 'No package metadata was found for xxhash' not installed
+[MCDR] [19:32:12] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 加载失败
+[MCDR] [19:32:12] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 的 Python 依赖库需求未被满足: required package 'No package metadata was found for simpleeval' not installed
+[MCDR] [19:32:12] [TaskExecutor/INFO] [where_is]: 配置文件已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:32:12] [TaskExecutor/INFO] [minecraft_data_api]: 配置文件已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO] [gamemode]: 配置文件已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO] [info]: 配置文件已加载
+[MCDR] [19:32:12] [TaskExecutor/INFO]: 共加载: 7 个插件; 加载失败: 2 个插件; 已加载插件数: 9
+[MCDR] [19:32:12] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+>
+[MCDR] [19:32:12] [MainThread/INFO]: 服务端正在以 PID 3949212 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:32:12] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:32:12] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:32:12] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [19:32:12] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [19:32:12] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ uv add  xxhash
+Resolved 28 packages in 133ms
+Prepared 1 package in 149ms
+Installed 1 package in 1ms
+ + xxhash==3.6.0
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:32:19] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:32:19] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:32:19] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:32:19] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:32:19] [MainThread/INFO]: - plugins
+[MCDR] [19:32:19] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:32:19] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 插件 info@0.2.2 已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [19:32:19] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 加载失败
+[MCDR] [19:32:19] [TaskExecutor/ERROR]: 插件 prime_backup@1.10.2 的 Python 依赖库需求未被满足: required package 'No package metadata was found for zstandard' not installed
+[MCDR] [19:32:19] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 加载失败
+[MCDR] [19:32:19] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 的 Python 依赖库需求未被满足: required package 'No package metadata was found for simpleeval' not installed
+[MCDR] [19:32:19] [TaskExecutor/INFO] [where_is]: 配置文件已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:32:19] [TaskExecutor/INFO] [minecraft_data_api]: 配置文件已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO] [gamemode]: 配置文件已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO] [info]: 配置文件已加载
+[MCDR] [19:32:19] [TaskExecutor/INFO]: 共加载: 7 个插件; 加载失败: 2 个插件; 已加载插件数: 9
+[MCDR] [19:32:19] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+>
+[MCDR] [19:32:19] [MainThread/INFO]: 服务端正在以 PID 3949421 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:32:19] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:32:19] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:32:19] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [19:32:19] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [19:32:19] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ uv add zstandard
+Resolved 29 packages in 133ms
+Prepared 1 package in 1.27s
+Installed 1 package in 1ms
+ + zstandard==0.25.0
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:32:27] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:32:27] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:32:27] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:32:27] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:32:27] [MainThread/INFO]: - plugins
+[MCDR] [19:32:27] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:32:27] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 插件 info@0.2.2 已加载
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [19:32:27] [TaskExecutor/INFO]: 插件 prime_backup@1.10.2 已加载
+[MCDR] [19:32:27] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 加载失败
+[MCDR] [19:32:27] [TaskExecutor/ERROR]: 插件 simple_calculator@1.2.0 的 Python 依赖库需求未被满足: required package 'No package metadata was found for simpleeval' not installed
+[MCDR] [19:32:27] [TaskExecutor/INFO] [where_is]: 配置文件已加载
+[MCDR] [19:32:28] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:32:28] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:32:28] [TaskExecutor/INFO] [minecraft_data_api]: 配置文件已加载
+[MCDR] [19:32:28] [TaskExecutor/INFO] [gamemode]: 配置文件已加载
+[MCDR] [19:32:28] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:32:28] [TaskExecutor/INFO] [info]: 配置文件已加载
+[MCDR] [19:32:28] [TaskExecutor/INFO] [prime_backup]: 配置文件已加载
+[MCDR] [19:32:28] [PB@2067-init/INFO] [prime_backup]: Table db_meta does not exist, assuming newly created db, create everything
+[MCDR] [19:32:28] [PB@2067-worker-heavy/INFO] [prime_backup]: Worker heavy started
+[MCDR] [19:32:28] [PB@2067-worker-light/INFO] [prime_backup]: Worker light started
+[MCDR] [19:32:28] [PB@2067-crontab-scheduler/INFO] [prime_backup]: Scheduler started
+[MCDR] [19:32:28] [PB@2067-init/INFO] [prime_backup]: Added job "CreateDbBackupJob.run" to job store "default"
+[MCDR] [19:32:28] [PB@2067-init/INFO] [prime_backup]: Added job "PruneBackupJob.run" to job store "default"
+[MCDR] [19:32:28] [PB@2067-init/INFO] [prime_backup]: Added job "ScheduledBackupJob.run" to job store "default"
+[MCDR] [19:32:28] [PB@2067-init/INFO] [prime_backup]: Added job "VacuumSqliteJob.run" to job store "default"
+[MCDR] [19:32:28] [TaskExecutor/INFO]: 共加载: 8 个插件; 加载失败: 1 个插件; 已加载插件数: 10
+[MCDR] [19:32:28] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+[MCDR] [19:32:28] [MainThread/INFO]: 服务端正在以 PID 3949730 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:32:28] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:32:28] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:32:28] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [19:32:28] [TaskExecutor/INFO] [prime_backup]: Shutting down everything...
+[MCDR] [19:32:28] [PB@2067-shutdown/INFO] [prime_backup]: Scheduler has been shut down
+[MCDR] [19:32:28] [PB@2067-worker-heavy/INFO] [prime_backup]: Worker heavy stopped
+[MCDR] [19:32:28] [PB@2067-worker-light/INFO] [prime_backup]: Worker light stopped
+[MCDR] [19:32:28] [TaskExecutor/INFO] [prime_backup]: Shutdown completes
+>
+[MCDR] [19:32:28] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [19:32:28] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ uv add  simpleeval
+Resolved 30 packages in 286ms
+Prepared 1 package in 66ms
+Installed 1 package in 4ms
+ + simpleeval==1.0.3
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:32:42] [MainThread/INFO]: 语言已设置为 zh_cn
+[MCDR] [19:32:42] [MainThread/INFO]: 编码 / 解码方式已设置为 utf8 / utf8
+[MCDR] [19:32:42] [MainThread/INFO]: 解析处理器已设置为 vanilla_handler
+[MCDR] [19:32:42] [MainThread/INFO]: 插件文件夹列表:
+[MCDR] [19:32:42] [MainThread/INFO]: - plugins
+[MCDR] [19:32:42] [MainThread/INFO]: MCDReforged 2.15.5 正在启动
+[MCDR] [19:32:42] [MainThread/INFO]: MCDReforged 正于 Python 3.13.7 环境中运行
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 已从缓存文件加载插件仓库元数据 (更新于 2025-08-01 20:46:01)
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 stats_helper@7.5.1 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 gamemode@1.1.0 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 here@1.2.2 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 daytime@1.1.0 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 where_is@2.2.1 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 info@0.2.2 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 prime_backup@1.10.2 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO]: 插件 simple_calculator@1.2.0 已加载
+[MCDR] [19:32:42] [TaskExecutor/INFO] [where_is]: 配置文件已加载
+[MCDR] [19:32:43] [TaskExecutor/INFO] [stats_helper]: 配置文件已加载
+[MCDR] [19:32:43] [TaskExecutor/INFO] [stats_helper]: UUID list size: 31
+[MCDR] [19:32:43] [TaskExecutor/INFO] [minecraft_data_api]: 配置文件已加载
+[MCDR] [19:32:43] [TaskExecutor/INFO] [gamemode]: 配置文件已加载
+[MCDR] [19:32:43] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [19:32:43] [TaskExecutor/INFO] [info]: 配置文件已加载
+[MCDR] [19:32:43] [TaskExecutor/INFO] [prime_backup]: 配置文件已加载
+[MCDR] [19:32:43] [PB@a5d7-worker-heavy/INFO] [prime_backup]: Worker heavy started
+[MCDR] [19:32:43] [PB@a5d7-worker-light/INFO] [prime_backup]: Worker light started
+[MCDR] [19:32:43] [PB@a5d7-crontab-scheduler/INFO] [prime_backup]: Scheduler started
+[MCDR] [19:32:43] [PB@a5d7-init/INFO] [prime_backup]: Added job "CreateDbBackupJob.run" to job store "default"
+[MCDR] [19:32:43] [PB@a5d7-init/INFO] [prime_backup]: Added job "PruneBackupJob.run" to job store "default"
+[MCDR] [19:32:43] [PB@a5d7-init/INFO] [prime_backup]: Added job "ScheduledBackupJob.run" to job store "default"
+[MCDR] [19:32:43] [PB@a5d7-init/INFO] [prime_backup]: Added job "VacuumSqliteJob.run" to job store "default"
+[MCDR] [19:32:43] [TaskExecutor/INFO] [simple_calculator]: 配置文件已加载
+[MCDR] [19:32:43] [TaskExecutor/INFO] [simple_calculator]: Used SimpleevalCalculator for calculation
+[MCDR] [19:32:43] [TaskExecutor/INFO]: 共加载: 9 个插件; 已加载插件数: 11
+[MCDR] [19:32:43] [MainThread/INFO]: 正在启动服务端，启动参数为 'start.sh'
+[MCDR] [19:32:43] [MainThread/INFO]: 服务端正在以 PID 3950115 运行中
+[Server] /bin/sh: 1: start.sh: not found
+[MCDR] [19:32:43] [MainThread/INFO]: 服务器进程已停止，返回代码为 127
+[MCDR] [19:32:43] [MainThread/INFO]: 服务端已关闭
+[MCDR] [19:32:43] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [19:32:43] [TaskExecutor/INFO] [prime_backup]: Shutting down everything...
+[MCDR] [19:32:43] [PB@a5d7-shutdown/INFO] [prime_backup]: Scheduler has been shut down
+[MCDR] [19:32:43] [PB@a5d7-worker-heavy/INFO] [prime_backup]: Worker heavy stopped
+[MCDR] [19:32:43] [PB@a5d7-worker-light/INFO] [prime_backup]: Worker light stopped
+[MCDR] [19:32:43] [TaskExecutor/INFO] [prime_backup]: Shutdown completes
+>
+[MCDR] [19:32:43] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [19:32:43] [MainThread/INFO]: bye
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ cd server
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9/server$ 7z x zulu25.30.17-ca-jdk25.0.1-linux_x64.zip -o"java"
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,16 CPUs 12th Gen Intel(R) Core(TM) i5-12600KF (90672),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 235995114 bytes (226 MiB)
+
+Extracting archive: zulu25.30.17-ca-jdk25.0.1-linux_x64.zip
+--
+Path = zulu25.30.17-ca-jdk25.0.1-linux_x64.zip
+Type = zip
+Physical Size = 235995114
+
+Everything is Ok                                                   
+
+Folders: 119
+Files: 557
+Size:       414402015
+Compressed: 235995114
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9/server$ mcdreforged 
+MCDReforged 2.15.5 is starting up
+MCDReforged is open source, u can find it here: https://github.com/MCDReforged/MCDReforged
+[MCDR] [19:35:28] [MainThread/ERROR]: Configuration file 'config.yml' is missing
+[MCDR] [19:35:28] [MainThread/INFO]: Looks like MCDR is not initialized at current directory /home/dao/Minecraft/1.21.9/server
+[MCDR] [19:35:28] [MainThread/INFO]: Use command "mcdreforged init" to initialize MCDR first
+[MCDR] [19:35:28] [MainThread/INFO]: See document https://docs.mcdreforged.com/en/latest/quick_start.html#start-up
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9/server$ cd ..
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ server/java/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -jar server/fabric-loader-0.18.1.jar
+The Minecraft server .JAR is missing (/home/dao/Minecraft/1.21.9/server.jar)!
+
+Fabric's server-side launcher expects the server .JAR to be provided.
+You can edit its location in fabric-server-launcher.properties.
+
+Without the official Minecraft server .JAR, Fabric Loader cannot launch.
+Exception in thread "main" java.lang.RuntimeException: Failed to setup Fabric server environment!
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:63)
+Caused by: java.lang.RuntimeException: Missing game jar at /home/dao/Minecraft/1.21.9/server.jar
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:92)
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:61)
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9$ cd ..
+(1-21-9) dao@dao-computer:~/Minecraft$ cd 1.21.9/server/
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9/server$ java/zulu25.30.17-ca-jdk25.0.1-li
+nux_x64/bin/java -jar fabric-loader-0.18.1.jar
+Exception in thread "main" java.lang.RuntimeException: An exception occurred when launching the server!
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)
+Caused by: java.lang.ExceptionInInitializerError
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+Caused by: java.lang.IllegalStateException: ASM not detected on the classpath (or perhaps org/objectweb/asm/ClassReader.class was renamed?)
+        at net.fabricmc.loader.impl.util.LoaderUtil.verifyClasspath(LoaderUtil.java:85)
+        at net.fabricmc.loader.impl.launch.knot.Knot.<clinit>(Knot.java:330)
+        ... 2 more
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9/server$ java/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -jar fabric-loader-0.18.1.jar 
+Exception in thread "main" java.lang.RuntimeException: An exception occurred when launching the server!
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)
+Caused by: java.lang.ExceptionInInitializerError
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+Caused by: java.lang.IllegalStateException: ASM not detected on the classpath (or perhaps org/objectweb/asm/ClassReader.class was renamed?)
+        at net.fabricmc.loader.impl.util.LoaderUtil.verifyClasspath(LoaderUtil.java:85)
+        at net.fabricmc.loader.impl.launch.knot.Knot.<clinit>(Knot.java:330)
+        ... 2 more
+(1-21-9) dao@dao-computer:~/Minecraft/1.21.9/server$ 
